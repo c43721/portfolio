@@ -1,6 +1,7 @@
 ---
 import Head from "../components/Head.astro";
 import Header from "../components/Header.astro";
+import Water from "../components/Water.svelte";
 import Footer from "../components/Footer.svelte";
 
 const { ...props } = Astro.props;
@@ -12,6 +13,7 @@ const { ...props } = Astro.props;
   <body>
 <Header />
     <slot />
+<Water client:load />
 <Footer />
   </body>
 </html>
