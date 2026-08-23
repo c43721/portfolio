@@ -26,6 +26,6 @@ export default [
     title: 'Portfolio',
     category: 'Website',
     description: `Originally written during bootcamp, I decided in mid 2021 to reface it and give it more meaning and give it a better feel.`,
-    stack: ['JavaScript', 'SCSS', 'Svelte', 'GitHub Actions']
+    stack: ['JavaScript', 'SCSS', 'Svelte', 'Astro 7', 'Cloudflare Workers']
   },
 ] as IProject[];
