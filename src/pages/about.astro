@@ -1,11 +1,10 @@
-<script>
-	import Head from '../components/Head.svelte';
+---
 	import Divider from '../components/Divider.svelte';
-	import Avatar from '../components/Avatar.svelte';
-</script>
+  import Avatar from '../components/Avatar.svelte';
+  import Layout from '../layouts/layout.astro';
+---
 
-<Head title="About" description="About c43721" />
-
+<Layout title="About">
 <main class="container">
 	<section class="content">
 		<div class="header">
@@ -31,12 +30,13 @@
 
 			<br /> <br />
 
-			If you want to get in touch with me, you're free to
+        If you want to get in touch with me, you're free to{" "}
 			<a href="mailto:c43721@c43721.dev">send me an email</a>. If you wish to explore my projects in
 			more detail, head to my <a href="https://github.com/c43721" target="_blank">github page</a>.
 		</section>
 	</section>
-</main>
+  </main>
+</Layout>
 
 <style lang="scss">
 	@import '../styles/base';
